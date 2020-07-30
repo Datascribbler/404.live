@@ -1,0 +1,66 @@
+
+{"admin":{
+    "PASSWORD":"ad",
+    "PROFILE":"people/pics/default.png",
+    "SCREENNAME":"admin"
+  },
+"res241":{
+    "PASSWORD":"zii",
+    "PROFILE":"people/pics/default.png",
+    "SCREENNAME":"IEatDirt"
+  },
+"test":{
+	"PASSWORD":"t",
+	"PROFILE":"people/pics/default.png",
+	"SCREENNAME":"test"
+},
+"test2":{
+	"PASSWORD":"t",
+	"PROFILE":"people/pics/default.png",
+	"SCREENNAME":"test2"
+},
+"b":{
+	"PASSWORD":"b",
+	"PROFILE":"people/pics/default.png",
+	"SCREENNAME":"b"
+},
+"j":{
+	"PASSWORD":"4321",
+	"PROFILE":"people/pics/default.png",
+	"SCREENNAME":"j"
+},
+"j":{
+	"PASSWORD":"4321",
+	"PROFILE":"people/pics/default.png",
+	"SCREENNAME":"j"
+},
+"j":{
+	"PASSWORD":"4321",
+	"PROFILE":"people/pics/default.png",
+	"SCREENNAME":"j"
+},
+"testname":{
+	"PASSWORD":"ok",
+	"PROFILE":"people/pics/default.png",
+	"SCREENNAME":"testname"
+},
+"username":{
+	"PASSWORD":"username123",
+	"PROFILE":"people/pics/default.png",
+	"SCREENNAME":"user"
+},
+"testname":{
+	"PASSWORD":"testname123",
+	"PROFILE":"people/pics/default.png",
+	"SCREENNAME":"user"
+},
+"user1":{
+	"PASSWORD":"test",
+	"PROFILE":"people/pics/default.png",
+	"SCREENNAME":"user1"
+},
+"user1":{
+	"PASSWORD":"test",
+	"PROFILE":"people/pics/default.png",
+	"SCREENNAME":"user1"
+}}

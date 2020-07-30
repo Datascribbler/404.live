@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="404.css">
+  <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="404_3.js"></script>
+  <script>
+  function reveal(){
+      $("#submit").fadeIn(900);
+      $("#bottom_text").hide();
+      if(document.getElementById("password").value===""){
+        $("#bottom_text").show();
+      };
+    }
+  </script>
+  <meta name="keywords" content="Richard Siggillino">
+</head>
+
+<body>
+  <input type="text" name="404" placeholder="404" id="title2">
+  <input type="password" class="password_text"  placeholder="Oops! We are currently"  id="password" oninput="reveal()">
+  <p class="password_text" id="bottom_text"><br>undergoing maintenence.</p>
+  <input type="submit" id="submit" value="Submit">
+
+  <div id="post_button" class="buttonclick" data-key="post_button">POST</div>
+  <div id="post_buttonshadow" class="buttonclick" data-key="post_buttonshadow"></div>
+
+  <div id="delete_button" class="buttonclick">DELETE ALL</div>
+
+  <div id="upload_button" class="button buttonclick" data-key="upload_button">UPLOAD</div>
+  <div id="upload_buttonshadow" class="button buttonclick" data-key="upload_buttonshadow"></div>
+
+  <div id="tiles"></div>
+  <div id="posts"></div>
+  <div id="buttons"></div>
+
+  <div id="banner">
+    <div id="profile" class="menu" data-key="profile">Profile
+      <div class="rule"></div>
+    </div>
+
+    <div id="logout" class="menu" data-key="logout">&ltLogout&gt
+      <div class="rule"></div>
+    </div>
+  </div>
+
+
+
+  <div id="post_form">
+    <input type="text" name="subject" placeholder="Subject" id="postsub" class="subjectline">
+    <textarea name="posttxt" id="posttxt" rows="50"></textarea>
+    <input type="submit" id="postsubmit" value="Post">
+    <div id="x">x</div>
+  </div>
+
+  <div id="edit_form" data-key='0'>
+    <input type="text" name="subject" id="editsub" class="subjectline">
+    <textarea name="posttxt" id="edittxt" rows="50"></textarea>
+    <input type="submit" id="editsubmit" value="Post">
+    <div id="editx">x</div>
+  </div>
+
+  <div id="photo_forum">
+    <input type="text" name="url" placeholder="Image Url" id="urlInput" class="subjectline">
+    <input type="submit" id="urlSubmit" value="submit">
+    <div id="photox">x</div>
+  </div>
+
+</body>
+
+
+</html>

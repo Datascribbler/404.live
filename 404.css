@@ -1,0 +1,431 @@
+body{
+background-color: #dddddd;
+background-image: none;
+user-select: none;
+}
+@font-face {
+  font-family: GowdyText;
+  src:url(GoudyTextMTStd.otf);
+}
+
+#banner{
+  z-index: 5;
+}
+
+
+#bannertxt{
+  position: fixed;
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 40pt;
+  color:#000000;
+  right:4em;
+  top:.4em;
+  z-index: 5;
+}
+
+#profile{
+  position: fixed;
+  font-family: GowdyText;
+  font-size: 30pt;
+  left:0px;
+  top:0px;
+  height: 1.4em;
+  padding-left: 20px;
+  padding-top: 10px;
+  width: 88%;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: left;
+  z-index: 5;
+
+}
+
+
+#logout{
+  position: fixed;
+  font-family: GowdyText;
+  font-size: 30pt;
+  right:0px;
+  padding-top: 10px;
+  top:0px;
+  height: 1.4em;
+  width: 16%;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  z-index: 8;
+
+}
+
+#profile_pic{
+  position: fixed;
+  height: 200px;
+  width: 200px;
+  top:0px;
+  right:0px;
+  background-color: #ffffff;
+  background-size: 100%;
+  background-image: url("");
+  z-index: 10;
+}
+#posts{
+  position:absolute;
+  top:60px;
+  height:100%;
+  width:100%;
+  z-index: 1;
+}
+
+#buttons{
+  position: absolute;
+  top:0px;
+  height:2px;
+  width:2px;
+  z-index: 1;
+}
+
+.post{
+  padding:5px 0px 10px 20px;
+  width:400px;
+  height: fit-content(2000px);
+  background-color: transparent;
+  z-index: 4;
+  word-wrap: break-word;
+}
+.imgpost{
+  z-index: 4;
+}
+.name_head{
+  font-size: 12.5pt;
+  position: relative;
+  color:#000000;
+  font-family: helvetica-bold;
+  left:0px;
+  top:0em;
+}
+.highlight{
+  box-shadow: 4px 4px rgba(100,100,0,0.5);
+
+}
+.sub_head{
+  font-size:12.5pt;
+  position:relative;
+  color:#aaaaaa;
+  font-family:helvetica-light;
+  left:0px;
+  top:-1em;
+}
+.cont_head{
+  font-size: 10pt;
+  position: relative;
+  color:#aaaaaa;
+  font-family: helvetica-light;
+  left:0px;
+  top:-2em;
+}
+
+#post_form{
+  position: fixed;
+  height:30em;
+  width: 40em;
+  background-color: #fefefe;
+  left:50%;
+  top:50%;
+  transform: translate(-20em,-15em);
+  z-index: 8;
+}
+#posttxt{
+  position: absolute;
+  font-size: 15pt;
+  left:5em;
+  top:4em;
+  height:17.5em;
+  width:22.5em;
+  text-align: left;
+  resize: none;
+  box-shadow: none;
+}
+#postsub{
+  position: absolute;
+  font-size: 15pt;
+  left:5em;
+  top:1em;
+  height:1em;
+  width:14em;
+}
+#x{
+  position: relative;
+  font-size: 30pt;
+  left:12px;
+  height:1em;
+  width:1em;
+}
+
+#postsubmit{
+  position: absolute;
+  font-size: 15pt;
+  font-family: helvetica;
+  background-color: black;
+  color: white;
+  width:8em;
+  top:22em;
+  left:5em;
+
+}
+
+#photo_forum{
+  position: fixed;
+  height:10em;
+  width: 40em;
+  background-color: #fefefe;
+  left:50%;
+  top:50%;
+  transform: translate(-20em,-15em);
+  z-index: 8;
+}
+
+#urlSubmit{
+  position: absolute;
+  font-size: 15pt;
+  font-family: helvetica;
+  background-color: black;
+  color: white;
+  width:8em;
+  top:6em;
+  left:5em;
+}
+
+#urlInput{
+  position: absolute;
+  font-size: 17pt;
+  left:4.6em;
+  top:1.5em;
+  height:1.5em;
+  width:22.5em;
+  text-align: left;
+}
+
+#photox{
+  position: relative;
+  font-size: 30pt;
+  left: 12px;
+  height:1em;
+  width:1em;
+}
+
+#edit_form{
+  position: fixed;
+  height:30em;
+  width: 40em;
+  background-color: #fefefe;
+  left:50%;
+  top:50%;
+  transform: translate(-20em,-15em);
+  z-index: 8;
+}
+#edittxt{
+  position: absolute;
+  font-size: 15pt;
+  left:5em;
+  top:4em;
+  height:17.5em;
+  width:22.5em;
+  text-align: left;
+}
+#editsub{
+  position: absolute;
+  font-size: 15pt;
+  left:5em;
+  top:1em;
+  height:1em;
+  width:14em;
+}
+#editx{
+  height:10em;
+  width:10em;
+}
+
+#editsubmit{
+  position: absolute;
+  font-size: 15pt;
+  font-family: helvetica;
+  background-color: black;
+  color: white;
+  width:8em;
+  top:22em;
+  left:5em;
+}
+
+
+
+#title2{
+  position: absolute;
+  color:#ffffff;
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 120pt;
+  top:36%;
+  z-index: 2;
+  text-align: center;
+  width: 100%;
+  background-color: transparent;
+  -webkit-box-shadow:transparent;
+  border:0px solid;
+}
+
+#password{
+
+  background-color: transparent;
+  -webkit-box-shadow:transparent;
+  border:0px solid;
+}
+.password_text{
+  position: absolute;
+  color:#ffffff;
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 20pt;
+  top:60%;
+  width:100%;
+  text-align: center;
+  z-index: 2;
+  line-height: 10pt;
+}
+
+#submit{
+  position: absolute;
+  background-color: transparent;
+  border:1pt solid;
+  font-family: helvetica;
+  font-size: 30pt;
+  font-weight: bold;
+  color:#ffffff;
+  width:500pt;
+  left:50%;
+  top: 70%;
+  transform: translateX(-250pt);
+  z-index: 2;
+}
+
+
+
+
+::placeholder{
+  color:#ffffff;
+}
+.subjectline::placeholder{
+  color:#888888;
+}
+input:focus{
+  outline-width:0;
+  font-size: 20pt;
+}
+
+.button{
+  position: fixed;
+  font-family: helvetica;
+  font-size: 15pt;
+  color: #aaaaaa;
+  background-color: #ffffff;
+  height:1.4em;
+  width:4em;
+  border-radius: .2em;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 1.4em;
+  z-index: 3;
+}
+
+#post_button{
+  position: fixed;
+  font-family: helvetica;
+  font-size: 15pt;
+  color: #aaaaaa;
+  background-color: #ffffff;
+  height:1.4em;
+  width:4em;
+  border-radius: .2em;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 1.4em;
+  left: 50%;
+  top:50%;
+  transform: translateX(-2em);
+  z-index: 3;
+}
+
+#delete_button{
+  position: fixed;
+  font-family: helvetica;
+  font-size: 15pt;
+  color: #ffffff;
+  background-color: #ffaaaa;
+  height:1.4em;
+  width:8em;
+  border-radius: .2em;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 1.4em;
+  left: 59%;
+  top:40%;
+  transform: translateX(-2em);
+  z-index: 10;
+}
+
+#post_buttonshadow{
+  position: fixed;
+  font-size: 15pt;
+  font-family: helvetica;
+  background-color: #aaaaaa;
+  height:1.4em;
+  width: 4em;
+  z-index: 2;
+  top:50%;
+  left:50%;
+  transform: translate(-2em, .5em);
+
+  border-radius: .2em;
+}
+
+#upload_button{
+  top:50%;
+  left:70%;
+  width:4.4em;
+}
+#upload_buttonshadow{
+  top:50%;
+  left:70%;
+  width:4.4em;
+  background-color: #aaaaaa;
+  transform: translate(0em,.5em);
+  z-index: 2;
+}
+
+#tiles{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  right:1px;
+  bottom:1px;
+  z-index: 1;
+  background-image: url("tiles/00.png");
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.rule{
+  position: relative;
+  top:-5px;
+  width: 90%;
+  left:10px;
+  border-bottom: 3px solid white;
+  text-align: center;
+}
+
+#profilerule{
+  width:100px;
+  left:0px;
+  top:10px;
+}

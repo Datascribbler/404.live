@@ -1,0 +1,1 @@
+{"post_button":{"X":"77","Y":"188","XIN":"837","YIN":"196"},"post_buttonshadow":{"X":"84","Y":"177","XIN":"838","YIN":"180"},"upload_button":{"X":"33","Y":"120","XIN":"409","YIN":"262"},"upload_buttonshadow":{"X":"40","Y":"110","XIN":"407","YIN":"258"},"logout":{"X":"0","Y":"1","XIN":"0","YIN":"1"},"profile":{"X":"238","Y":"15","XIN":"224","YIN":"-1"}}
